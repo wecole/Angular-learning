@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<script src="js/angular.min.js"></script>
+<body>
+
+<p>Change the value of the input field:</p>
+
+<div style="background-color:{{myCol}}" ng-app="" ng-init="myCol='skyblue'">
+
+<input  ng-model="myCol" value="{{myCol}}">
+	<p>background color will change here </p>
+
+</div>
+
+
+</body>
+</html>
